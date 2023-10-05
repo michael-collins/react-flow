@@ -1,0 +1,43 @@
+.string-list-node {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 250px; /* Adjust based on your preference */
+    font-size: 14px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.string-list-node input {
+    width: 100px;
+    height:2rem;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.string-list-node-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.string-list-node-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.string-list-node button.add-item {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+}
