@@ -3,7 +3,10 @@ import ReactFlow, { useNodesState, useEdgesState, addEdge, Controls, MiniMap, Ba
 import { DateRangeNode, TextUpdaterNode, CSVExportNode } from './nodes'; // Adjust the path as necessary
 
 
-import 'reactflow/dist/style.css';
+// import 'reactflow/dist/style.css';
+import 'reactflow/dist/base.css';
+import './index.css';
+// import '../tailwind.config.js';
 
 const nodeTypes = {
   dateRange: DateRangeNode,
